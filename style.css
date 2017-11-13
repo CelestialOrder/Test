@@ -1,0 +1,59 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('fonts/Roboto 100.ttf'); 
+	font-family: 'Croissant One';
+	src: url('fonts/Croissant One regular.ttf'); 
+	font-family: 'Cinzel';
+	src: url('fonts/Cinzel Decorative regular.ttf'); 
+	font-family: 'Libre Baskerville';
+	src: url('fonts/Libre Baskerville regular.ttf'); 
+}
+
+h1 {
+	font-family: 'Cinzel', sans-serif;
+	color: #71aeba;
+}
+
+body {
+	color: white;
+	background-color: #3f3130;
+}
+
+.content {
+	max-width: 1440px;
+	margin: 0 auto;
+	width: 80%;
+}
+
+#hook {
+	width: 100%;
+}
+
+.site-title h1, a {
+	font-family: 'Cinzel', sans-serif;
+	text-decoration: none;
+	font-size: 150px;
+	letter-spacing: 5px;
+	font-size: 5vw;
+}
+
+.impress p {
+	font-size: 17px;
+}
+
+.impress img {
+	display: inline-block;
+	width: 8%;
+	height: auto;
+	float: left;
+}
+
+.site-title::after {
+    display: block;
+    clear: both;
+    width: 100%;
+    height: 6px;
+    margin: .125em 0;
+    content: '';
+    background: #2a201f;
+}
